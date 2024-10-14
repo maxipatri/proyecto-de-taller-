@@ -104,14 +104,6 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    animation.runImageAnimation(
-    mySprite,
-    assets.animation`izquierda`,
-    200,
-    true
-    )
-})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (mySprite.isHittingTile(CollisionDirection.Bottom)) {
         mySprite.x += -170
