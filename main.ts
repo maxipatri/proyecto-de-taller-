@@ -114,7 +114,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (mySprite.isHittingTile(CollisionDirection.Bottom)) {
-        mySprite.vy += -170
+        mySprite.vy += -175
         mySprite.setImage(assets.image`myImage1z`)
     }
 })
