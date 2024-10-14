@@ -126,6 +126,6 @@ scene.setBackgroundImage(assets.image`myImage0`)
 tiles.setCurrentTilemap(tilemap`level`)
 mySprite = sprites.create(assets.image`myImage3`, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 0)
-mySprite.ay = 400
+mySprite.ay = 300
 tiles.placeOnTile(mySprite, tiles.getTileLocation(1, 12))
 scene.cameraFollowSprite(mySprite)
